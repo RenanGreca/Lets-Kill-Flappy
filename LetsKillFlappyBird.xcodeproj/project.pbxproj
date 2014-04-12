@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F72AE6318F91B9B00C865F9 /* Pipe.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F72AE6218F91B9B00C865F9 /* Pipe.m */; };
+		1F72AE6718F9353E00C865F9 /* Bird.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F72AE6618F9353E00C865F9 /* Bird.m */; };
+		1F72AE6B18F93F3400C865F9 /* MetalMario.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F72AE6818F93F3400C865F9 /* MetalMario.mp3 */; };
+		1F72AE6C18F93F3400C865F9 /* Dead.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F72AE6918F93F3400C865F9 /* Dead.mp3 */; };
+		1F72AE6D18F93F3400C865F9 /* Flap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 1F72AE6A18F93F3400C865F9 /* Flap.mp3 */; };
+		7F3EFB1318F9421B006BA585 /* supershot.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EFB1218F9421B006BA585 /* supershot.png */; };
+		7F3EFB2218F956EB006BA585 /* Bullet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F3EFB2118F956EB006BA585 /* Bullet.m */; };
+		7F3EFB3318F97041006BA585 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F3EFB3218F97041006BA585 /* Default-568h@2x.png */; };
 		B71F5911188484E7003F4D28 /* iPad-old.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5907188484E7003F4D28 /* iPad-old.png */; };
 		B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5908188484E7003F4D28 /* iPad-old@2x.png */; };
 		B71F5913188484E7003F4D28 /* iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5909188484E7003F4D28 /* iPad.png */; };
@@ -19,8 +27,6 @@
 		B71F591A188484E7003F4D28 /* Settings@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B71F5910188484E7003F4D28 /* Settings@2x.png */; };
 		B737893B180761570076A88C /* Published-iOS in Resources */ = {isa = PBXBuildFile; fileRef = B737893A180761570076A88C /* Published-iOS */; };
 		B737893F1807617C0076A88C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B737893E1807617C0076A88C /* AppDelegate.m */; };
-		B7378975180762440076A88C /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B737896B180762440076A88C /* Default-568h@2x.png */; };
-		B7378976180762440076A88C /* Default-Landscape~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = B737896C180762440076A88C /* Default-Landscape~ipad.png */; };
 		B7378977180762440076A88C /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B737896D180762440076A88C /* Default.png */; };
 		B7378978180762440076A88C /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B737896E180762440076A88C /* Default@2x.png */; };
 		B73789871807631A0076A88C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B73789851807631A0076A88C /* main.m */; };
@@ -55,6 +61,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1F72AE6118F91B9B00C865F9 /* Pipe.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pipe.h; sourceTree = "<group>"; };
+		1F72AE6218F91B9B00C865F9 /* Pipe.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pipe.m; sourceTree = "<group>"; };
+		1F72AE6518F9353E00C865F9 /* Bird.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bird.h; sourceTree = "<group>"; };
+		1F72AE6618F9353E00C865F9 /* Bird.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bird.m; sourceTree = "<group>"; };
+		1F72AE6818F93F3400C865F9 /* MetalMario.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = MetalMario.mp3; sourceTree = "<group>"; };
+		1F72AE6918F93F3400C865F9 /* Dead.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Dead.mp3; sourceTree = "<group>"; };
+		1F72AE6A18F93F3400C865F9 /* Flap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Flap.mp3; sourceTree = "<group>"; };
+		7F3EFB1218F9421B006BA585 /* supershot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = supershot.png; sourceTree = "<group>"; };
+		7F3EFB2018F956EB006BA585 /* Bullet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bullet.h; sourceTree = "<group>"; };
+		7F3EFB2118F956EB006BA585 /* Bullet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bullet.m; sourceTree = "<group>"; };
+		7F3EFB3218F97041006BA585 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B71F5907188484E7003F4D28 /* iPad-old.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old.png"; path = "Icons/iPad-old.png"; sourceTree = "<group>"; };
 		B71F5908188484E7003F4D28 /* iPad-old@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iPad-old@2x.png"; path = "Icons/iPad-old@2x.png"; sourceTree = "<group>"; };
 		B71F5909188484E7003F4D28 /* iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = iPad.png; path = Icons/iPad.png; sourceTree = "<group>"; };
@@ -69,8 +86,6 @@
 		B737893D1807617C0076A88C /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = Source/AppDelegate.h; sourceTree = "<group>"; };
 		B737893E1807617C0076A88C /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = Source/AppDelegate.m; sourceTree = "<group>"; };
 		B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "cocos2d-ios.xcodeproj"; path = "Source/libs/cocos2d-iphone/cocos2d-ios.xcodeproj"; sourceTree = SOURCE_ROOT; };
-		B737896B180762440076A88C /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "Source/Resources/Default-568h@2x.png"; sourceTree = SOURCE_ROOT; };
-		B737896C180762440076A88C /* Default-Landscape~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Landscape~ipad.png"; path = "Source/Resources/Default-Landscape~ipad.png"; sourceTree = SOURCE_ROOT; };
 		B737896D180762440076A88C /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = Source/Resources/Default.png; sourceTree = SOURCE_ROOT; };
 		B737896E180762440076A88C /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "Source/Resources/Default@2x.png"; sourceTree = SOURCE_ROOT; };
 		B73789851807631A0076A88C /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Source/main.m; sourceTree = SOURCE_ROOT; };
@@ -126,6 +141,12 @@
 				B737893E1807617C0076A88C /* AppDelegate.m */,
 				B7378992180767190076A88C /* MainScene.h */,
 				B7378993180767190076A88C /* MainScene.m */,
+				7F3EFB2018F956EB006BA585 /* Bullet.h */,
+				7F3EFB2118F956EB006BA585 /* Bullet.m */,
+				1F72AE6518F9353E00C865F9 /* Bird.h */,
+				1F72AE6618F9353E00C865F9 /* Bird.m */,
+				1F72AE6118F91B9B00C865F9 /* Pipe.h */,
+				1F72AE6218F91B9B00C865F9 /* Pipe.m */,
 			);
 			name = Source;
 			sourceTree = "<group>";
@@ -151,8 +172,6 @@
 				B71F590E188484E7003F4D28 /* iPhone@2x.png */,
 				B71F590F188484E7003F4D28 /* Settings.png */,
 				B71F5910188484E7003F4D28 /* Settings@2x.png */,
-				B737896B180762440076A88C /* Default-568h@2x.png */,
-				B737896C180762440076A88C /* Default-Landscape~ipad.png */,
 				B737896D180762440076A88C /* Default.png */,
 				B737896E180762440076A88C /* Default@2x.png */,
 			);
@@ -162,6 +181,7 @@
 		B77F1B2517B978D7009739AE = {
 			isa = PBXGroup;
 			children = (
+				7F3EFB3218F97041006BA585 /* Default-568h@2x.png */,
 				B737893C1807616C0076A88C /* Source */,
 				B77F1B4617B978D7009739AE /* Resources */,
 				9222E2B918734FF800A246C7 /* libs */,
@@ -199,6 +219,10 @@
 		B77F1B4617B978D7009739AE /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				1F72AE6818F93F3400C865F9 /* MetalMario.mp3 */,
+				7F3EFB1218F9421B006BA585 /* supershot.png */,
+				1F72AE6918F93F3400C865F9 /* Dead.mp3 */,
+				1F72AE6A18F93F3400C865F9 /* Flap.mp3 */,
 				B73789911807667A0076A88C /* Icons */,
 				B737893A180761570076A88C /* Published-iOS */,
 			);
@@ -246,7 +270,7 @@
 				ORGANIZATIONNAME = Apportable;
 				TargetAttributes = {
 					B77F1B2D17B978D7009739AE = {
-						DevelopmentTeam = G9HUSQ74Y3;
+						DevelopmentTeam = T9HDTSCW4C;
 						SystemCapabilities = {
 							com.apple.GameCenter = {
 								enabled = 0;
@@ -297,14 +321,17 @@
 				B7378978180762440076A88C /* Default@2x.png in Resources */,
 				B71F5914188484E7003F4D28 /* iPad@2x.png in Resources */,
 				B71F5913188484E7003F4D28 /* iPad.png in Resources */,
+				7F3EFB1318F9421B006BA585 /* supershot.png in Resources */,
 				B71F5912188484E7003F4D28 /* iPad-old@2x.png in Resources */,
 				B71F5916188484E7003F4D28 /* iPhone-old@2x.png in Resources */,
 				B737893B180761570076A88C /* Published-iOS in Resources */,
+				1F72AE6C18F93F3400C865F9 /* Dead.mp3 in Resources */,
+				1F72AE6B18F93F3400C865F9 /* MetalMario.mp3 in Resources */,
+				1F72AE6D18F93F3400C865F9 /* Flap.mp3 in Resources */,
+				7F3EFB3318F97041006BA585 /* Default-568h@2x.png in Resources */,
 				B71F591A188484E7003F4D28 /* Settings@2x.png in Resources */,
-				B7378976180762440076A88C /* Default-Landscape~ipad.png in Resources */,
 				B71F5915188484E7003F4D28 /* iPhone-old.png in Resources */,
 				B71F5917188484E7003F4D28 /* iPhone.png in Resources */,
-				B7378975180762440076A88C /* Default-568h@2x.png in Resources */,
 				B71F5918188484E7003F4D28 /* iPhone@2x.png in Resources */,
 				B7378977180762440076A88C /* Default.png in Resources */,
 				B71F5911188484E7003F4D28 /* iPad-old.png in Resources */,
@@ -318,9 +345,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F72AE6718F9353E00C865F9 /* Bird.m in Sources */,
 				B737893F1807617C0076A88C /* AppDelegate.m in Sources */,
 				B7378994180767190076A88C /* MainScene.m in Sources */,
 				B73789871807631A0076A88C /* main.m in Sources */,
+				1F72AE6318F91B9B00C865F9 /* Pipe.m in Sources */,
+				7F3EFB2218F956EB006BA585 /* Bullet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
